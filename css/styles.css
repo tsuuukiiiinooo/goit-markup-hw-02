@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 .logo-web {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 800; 
     font-size: 18px;
     line-height: 24px;
@@ -16,7 +16,7 @@
     color: #4D5AE5;
 }
 .logo-studio {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
@@ -27,7 +27,7 @@
     color: #2E2F42;
 }
 .list {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -36,7 +36,7 @@
 }
 
 .contact-mail {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -46,7 +46,7 @@
 }
 
 .contact-phone-number {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -56,7 +56,7 @@
 }
 
 .main-headline {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -67,7 +67,7 @@
 }
 
 .modal-btn {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -76,10 +76,16 @@
     align-items: center;
     letter-spacing: 0.04em;
     /*color: #FFFFFF;*/
+    background: rgba(77, 90, 229, 1);
+}
+
+.modal-btn:hover {
+    background: rgba(64, 75, 191, 1);
+    cursor: pointer;
 }
 
 .headline-list {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -89,7 +95,7 @@
 }
 
 .list-about-us {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -97,8 +103,8 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
-.not-main-headline {
-    font-family: 'Roboto', sans-serif;
+.our-team-headline {
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -109,7 +115,7 @@
     color: #2E2F42;
 }
 .name-emp {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -119,7 +125,7 @@
     color: #2E2F42;
 }
 .job-tittle {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -128,12 +134,43 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.footer {
+    background-color: #2E2F42;
+}
 .footer-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     /*color: #E7E9FC;*/
+}
+.logo-studio-footer {
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+/* for portfolio*/
+
+.modal-btn-list {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+
+.modal-btn-list:hover{
+    color: #FFFFFF;
+    background: #404BBF;
+    cursor: pointer;
 }
