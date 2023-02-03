@@ -6,7 +6,6 @@
 }
 .logo-web {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800; 
     font-size: 18px;
     line-height: 24px;
@@ -18,7 +17,6 @@
 }
 .logo-studio {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 24px;
@@ -30,7 +28,6 @@
 }
 .list {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -38,7 +35,17 @@
     color: #2E2F42;
 }
 
-.adresses {
+.contact-mail {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-phone-number {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -56,8 +63,7 @@
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    background: #2E2F42;
+    /*color: #FFFFFF;*/
 }
 
 .modal-btn {
@@ -69,10 +75,7 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #4D5AE5; 
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    /*color: #FFFFFF;*/
 }
 
 .headline-list {
@@ -132,5 +135,5 @@
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    /*color: #E7E9FC;*/
 }
