@@ -35,6 +35,8 @@
 }
 
 .logo-web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     color: var(--iris);
 }
 .logo-studio {
@@ -44,6 +46,7 @@
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--navy-blue-color)
 }
 
 .menu-item {
@@ -51,6 +54,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--navy-blue-color)
 }
 
 .contact-link {
@@ -91,7 +95,16 @@
     color: var(--white);
 }
 
+.not-main-headline {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
 .modal-btn {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -120,6 +133,11 @@
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+
+.section-our-team {
+    background-color: var(--cloud);
+}
+
 .our-team-headline {
     font-weight: 700;
     font-size: 36px;
@@ -127,12 +145,18 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
+.card-of-emp {
+    background-color: var(--white);
+}
+
 .name-emp {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .job-tittle {
     font-style: normal;
     font-weight: 400;
@@ -145,6 +169,7 @@
 .footer {
     background-color: var(--navy-blue-color);
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
@@ -165,6 +190,7 @@
 /* for portfolio*/
 
 .modal-btn-list {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -180,7 +206,20 @@
     background: var(--ocean);
 }
 
+.mini-headlines-lst-prj {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue-color);
+}
+
+.name-of-prjct {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+}
+
 .list-projects:hover {
     cursor: pointer;
-
 }
